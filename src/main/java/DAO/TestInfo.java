@@ -1,9 +1,9 @@
 package DAO;
 
 public class TestInfo {
-    int testID = 1;
-    String testDescription = "Опис тесту";
-    int questionCount = 12;
+    int testID;
+    String testDescription;
+    int questionCount;
 
     public TestInfo () {}
 
