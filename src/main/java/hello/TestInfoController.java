@@ -1,6 +1,5 @@
-package controllers;
+package hello;
 
-import DAO.TestInfo;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

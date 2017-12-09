@@ -1,4 +1,4 @@
-package DAO;
+package hello;
 
 public class TestInfo {
     int testID;
@@ -11,22 +11,22 @@ public class TestInfo {
         this.testID = testID;
     }
 
-    public void getTestID(int testID) {
-        this.testID = testID;
+    public int getTestID() {
+        return testID;
     }
 
     public void setTestDescription(String testDescription) {
         this.testDescription = testDescription;
     }
-    public void getTestID(String testDescription) {
-        this.testDescription = testDescription;
+    public String getTestDescription() {
+        return testDescription;
     }
 
     public void setQuestionCount(int questionCount) {
         this.questionCount = questionCount;
     }
-    public void getQuestionCount(int questionCount) {
-        this.questionCount = questionCount;
+    public int getQuestionCount() {
+        return questionCount;
     }
 
 }
